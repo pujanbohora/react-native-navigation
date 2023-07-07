@@ -20,15 +20,15 @@ export default function Feed(){
 
     return (
         <SafeAreaView>
-            <FlatList data={tweets.slice(0, 30)} keyExtractor={(item) =>{
+            {/* <FlatList data={tweets.slice(0, 30)} keyExtractor={(item) =>{
                 return item.id;
             }} 
             renderItem={({item}) =>{
                 return <Tweet tweet={item}/>;
             }}
-            >
+            > */}
 
-            </FlatList>
+            {/* </FlatList> */}
         </SafeAreaView>
     )
 }
