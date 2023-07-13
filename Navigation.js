@@ -12,7 +12,6 @@ function TabGroup(){
         <Tab.Navigatorssss>
             <Tab.Screen name='Feed' component={Feed}  />
             <Tab.Screen name='Notification' component={Notifications} />
-            <Tab.Screen name='Settingsssss' component={Settings} />
             <Tab.Screen name='Settings' component={Settings} />
         </Tab.Navigatorssss>
     )
